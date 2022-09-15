@@ -5,12 +5,23 @@
   
   .nav-container {
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40px 40px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
   
   .gallery {
     width: 900px;
     height: 800px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 100px);
+    justify-items: center;
+    align-items: center;
   }
   
   .gallery img {
@@ -19,30 +30,37 @@
   }
   
   #img-1 {
-
+    display: grid;
+    grid-row: 1/4 ;
   }
   
   #img-2 {
-
+    display: grid;
+    grid-row: 1/2;
   }
   
   #img-3 {
-  
+    display: grid;
+    grid-row: 1/6;
   }
   
   #img-4 {
-
-  }
+    display: grid;
+    grid-row: 5/8;
+  } 
   
   #img-5 {
-
+    display: grid;
+    grid-row: 3/5;
   }
   
   #img-6 {
-
+    display: grid;
+    grid-row: 6/8;
   }
   
   #img-7 {
-
+    display: grid;
+    grid-row: 7/8;
   }
   
